@@ -24,7 +24,7 @@ Welcome to my central engineering repository. Below is the documentation and vis
 *   **Key Files:** Core microcontroller source code files.
 
 ### 🖼️ Circuit Schematic / Proteus Layout
-<img width="560" height="363" alt="Screenshot 2026-06-27 223538" src="https://github.com/user-attachments/assets/f768ca10-240e-42de-9aaf-dd9bdb7d70a5" />
+<img width="1178" height="889" alt="image" src="https://github.com/user-attachments/assets/cd65e400-0ca7-4ab4-8649-51e904cb0a69" />
 <img width="754" height="913" alt="Screenshot 2026-06-27 223455" src="https://github.com/user-attachments/assets/7fce9e0f-8dd3-4f08-8741-ad4126c6f2de" />
 <img width="267" height="476" alt="Screenshot 2026-06-27 223552" src="https://github.com/user-attachments/assets/00b4bb8d-8ba8-4e3f-87b0-4b75ee335804" />
 <img width="1280" height="825" alt="image" src="https://github.com/user-attachments/assets/cdcc845e-b811-42e6-b9cc-5bfb31f60138" />
