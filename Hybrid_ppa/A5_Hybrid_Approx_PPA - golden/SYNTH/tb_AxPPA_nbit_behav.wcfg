@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_AxPPA_nbit_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_AxPPA_nbit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="238400001fs"></ZoomEndTime>
+      <Cursor1Time time="29800000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="178"></NameColumnWidth>
+      <ValueColumnWidth column_width="122"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/tb_AxPPA_nbit/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/A" type="array">
+      <obj_property name="ElementShortName">A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/B" type="array">
+      <obj_property name="ElementShortName">B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/SUM" type="array">
+      <obj_property name="ElementShortName">SUM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/COUT" type="logic">
+      <obj_property name="ElementShortName">COUT</obj_property>
+      <obj_property name="ObjectShortName">COUT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/result" type="array">
+      <obj_property name="ElementShortName">result[32:0]</obj_property>
+      <obj_property name="ObjectShortName">result[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/golden_result" type="array">
+      <obj_property name="ElementShortName">golden_result[32:0]</obj_property>
+      <obj_property name="ObjectShortName">golden_result[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/difference" type="array">
+      <obj_property name="ElementShortName">difference[32:0]</obj_property>
+      <obj_property name="ObjectShortName">difference[32:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_AxPPA_nbit/bit_diff" type="array">
+      <obj_property name="ElementShortName">bit_diff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_diff[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

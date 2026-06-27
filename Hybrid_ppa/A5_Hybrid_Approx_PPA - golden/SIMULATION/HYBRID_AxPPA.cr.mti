@@ -1,0 +1,39 @@
+F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/TESTBENCH/tb_AxPPA_nbit.v {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/TESTBENCH/tb_AxPPA_nbit.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module tb_AxPPA_nbit
+
+Top level modules:
+	tb_AxPPA_nbit
+
+} {} {}} F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Hybrid_Approx_PPA2_32.v {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Hybrid_Approx_PPA2_32.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Hybrid_Approx_PPA2_32
+
+Top level modules:
+	Hybrid_Approx_PPA2_32
+
+} {} {}} F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Mod_Approx_Sklansky32.v {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Mod_Approx_Sklansky32.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Mod_Approx_Sklansky32
+
+Top level modules:
+	Mod_Approx_Sklansky32
+
+} {} {}} F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/define.vh {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/define.vh
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+
+} {} {}} F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Hybrid_Approx_PPA1_32.v {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Hybrid_Approx_PPA1_32.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Hybrid_Approx_PPA1_32
+
+Top level modules:
+	Hybrid_Approx_PPA1_32
+
+} {} {}} F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Mod_Approx_Knowles32.v {1 {vlog -work work -novopt F:/KITSW_MAJOR_2025_2026/PROJECT_CODE_n_DOC/A5_Hybrid_Approx_PPA/RTL/Mod_Approx_Knowles32.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module Mod_Approx_Knowles32
+
+Top level modules:
+	Mod_Approx_Knowles32
+
+} {} {}}

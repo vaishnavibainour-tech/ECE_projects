@@ -1,0 +1,328 @@
+/*
+
+Xilinx Vivado v2017.4 (64-bit) [Major: 2017, Minor: 4]
+SW Build: 2086221 on Fri Dec 15 20:55:39 MST 2017
+IP Build: 2085800 on Fri Dec 15 22:25:07 MST 2017
+
+Process ID: 9736
+License: Customer
+
+Current time: 	Mon Apr 20 10:02:47 IST 2026
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 29 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.4/tps/win64/jre/bin/java.exe
+
+User name: 	DELL
+User home directory: C:/Users/DELL
+User working directory: C:/A5_Hybrid_Approx_PPA - golden/SYNTH
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.4
+RDI_DATADIR: C:/Xilinx/Vivado/2017.4/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.4/bin
+
+Vivado preferences file location: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2017.4/vivado.xml
+Vivado preferences directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2017.4/
+Vivado layouts directory: C:/Users/DELL/AppData/Roaming/Xilinx/Vivado/2017.4/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2017.4/lib/classes/planAhead.jar
+Vivado log file location: 	C:/A5_Hybrid_Approx_PPA - golden/SYNTH/vivado.log
+Vivado journal file location: 	C:/A5_Hybrid_Approx_PPA - golden/SYNTH/vivado.jou
+Engine tmp dir: 	C:/A5_Hybrid_Approx_PPA - golden/SYNTH/.Xil/Vivado-9736-DESKTOP-TH3APAE
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 490 MB
+
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs (cj):  Open Project : addNotify
+// Opening Vivado Project: C:\A5_Hybrid_Approx_PPA - golden\SYNTH\HYBRID_AX_PPA.xpr. Version: Vivado v2017.4 
+// [GUI Memory]: 43 MB (+42821kb) [00:00:17]
+// [Engine Memory]: 483 MB (+355469kb) [00:00:17]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 490 MB. GUI used memory: 33 MB. Current time: 4/20/26 10:02:49 AM IST
+// [GUI Memory]: 55 MB (+10070kb) [00:00:26]
+// [Engine Memory]: 538 MB (+31401kb) [00:00:29]
+// [GUI Memory]: 58 MB (+396kb) [00:00:30]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'. 
+// Project name: HYBRID_AX_PPA; location: C:/A5_Hybrid_Approx_PPA - golden/SYNTH; part: xc7a35ticsg324-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:13 . Memory (MB): peak = 753.371 ; gain = 46.465 
+// [GUI Memory]: 62 MB (+1221kb) [00:00:31]
+dismissDialog("Open Project"); // bs (cj)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+// PAPropertyPanels.initPanels (Mod_Approx_Knowles32.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mod_Approx_Knowles32 (Mod_Approx_Knowles32.v)]", 2, false); // B (D, cj)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Mod_Approx_Knowles32 (Mod_Approx_Knowles32.v)]", 2, false, false, false, false, false, true); // B (D, cj) - Double Click
+// [GUI Memory]: 69 MB (+4098kb) [00:00:36]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_AxPPA_nbit (tb_AxPPA_nbit.v)]", 10); // B (D, cj)
+// [Engine Memory]: 565 MB (+652kb) [00:00:58]
+// [GUI Memory]: 74 MB (+1486kb) [00:01:12]
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_AxPPA_nbit (tb_AxPPA_nbit.v)]", 10, true); // B (D, cj) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_AxPPA_nbit (tb_AxPPA_nbit.v)]", 10, true, false, false, false, false, true); // B (D, cj) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Verilog Header]", 9); // B (D, cj)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_AxPPA_nbit (tb_AxPPA_nbit.v)]", 11); // B (D, cj)
+// Elapsed time: 287 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_AxPPA_nbit' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvlog --incr --relax -prj tb_AxPPA_nbit_vlog.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto eb5d1407fd1a406b832d9bde89e128e9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AxPPA_nbit_behav xil_defaultlib.tb_AxPPA_nbit xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_AxPPA_nbit_behav -key {Behavioral:sim_1:Functional:tb_AxPPA_nbit} -tclbatch {tb_AxPPA_nbit.tcl} -view {{C:/A5_Hybrid_Approx_PPA - golden/SYNTH/tb_AxPPA_nbit_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 78 MB (+282kb) [00:06:21]
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Tcl Message: open_wave_config {C:/A5_Hybrid_Approx_PPA - golden/SYNTH/tb_AxPPA_nbit_behav.wcfg} 
+// Waveform: addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 577 MB. GUI used memory: 47 MB. Current time: 4/20/26 10:08:50 AM IST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source tb_AxPPA_nbit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_AxPPA_nbit_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 796.148 ; gain = 22.664 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (cj)
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+floatView(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // ax (aF, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_AxPPA_nbit_behav.wcfg: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 586 MB. GUI used memory: 49 MB. Current time: 4/20/26 10:08:56 AM IST
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_AxPPA_nbit_behav.wcfg: close view
+closeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // ax (aF, FrameFloatingContainer)
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // ax (aF, FrameFloatingContainer)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aB, cj)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - tb_AxPPA_nbit", "DesignTask.SIMULATION");
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// [GUI Memory]: 83 MB (+946kb) [00:06:36]
+// [Engine Memory]: 602 MB (+8982kb) [00:06:38]
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, cj)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cj):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_AxPPA_nbit' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj tb_AxPPA_nbit_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2017.4 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto eb5d1407fd1a406b832d9bde89e128e9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_AxPPA_nbit_behav xil_defaultlib.tb_AxPPA_nbit xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/A5_Hybrid_Approx_PPA - golden/SYNTH/HYBRID_AX_PPA.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_AxPPA_nbit_behav -key {Behavioral:sim_1:Functional:tb_AxPPA_nbit} -tclbatch {tb_AxPPA_nbit.tcl} -view {{C:/A5_Hybrid_Approx_PPA - golden/SYNTH/tb_AxPPA_nbit_behav.wcfg}} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2017.4 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 602 MB. GUI used memory: 49 MB. Current time: 4/20/26 10:09:13 AM IST
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: open_wave_config {C:/A5_Hybrid_Approx_PPA - golden/SYNTH/tb_AxPPA_nbit_behav.wcfg} 
+// Tcl Message: source tb_AxPPA_nbit.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_AxPPA_nbit_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'd' command handler elapsed time: 4 seconds
+dismissDialog("Run Simulation"); // e (cj)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART, "simulation_live_restart"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RESTART
+// bs (cj):  Restart : addNotify
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// Tcl Message: restart 
+// Tcl Message: INFO: [Simtcl 6-17] Simulation restarted 
+dismissDialog("Restart"); // bs (cj)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL, "simulation_live_run_all"); // B (f, cj)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_LIVE_RUN_ALL
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: run all 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// HMemoryUtils.trashcanNow. Engine heap size: 623 MB. GUI used memory: 49 MB. Current time: 4/20/26 10:09:19 AM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Waveform: addNotify
+// Waveform: addNotify
+// Waveform: addNotify
+floatView(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // ax (aF, cj)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: tb_AxPPA_nbit_behav.wcfg: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 624 MB. GUI used memory: 49 MB. Current time: 4/20/26 10:09:22 AM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+maximizeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "tb_AxPPA_nbit_behav.wcfg"); // ax (aF, FrameFloatingContainer)
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 54 MB. Current time: 4/20/26 10:09:24 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [Engine Memory]: 641 MB (+9024kb) [00:06:56]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// HMemoryUtils.trashcanNow. Engine heap size: 641 MB. GUI used memory: 54 MB. Current time: 4/20/26 10:09:27 AM IST
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 825.543 ; gain = 7.000 
+// [GUI Memory]: 88 MB (+1234kb) [00:07:05]
+// [GUI Memory]: 98 MB (+5343kb) [00:08:04]
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 53 MB. Current time: 4/20/26 10:10:44 AM IST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 470 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 12, 263); // n (o, FrameFloatingContainer)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 54 MB. Current time: 4/20/26 10:17:15 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 643 MB. GUI used memory: 54 MB. Current time: 4/20/26 10:17:15 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 644 MB. GUI used memory: 53 MB. Current time: 4/20/26 10:17:15 AM IST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 37 seconds
+selectView(PAResourceOtoP.PAViews_FLOW_NAVIGATOR, "Flow Navigator", 75, 75, 243, 691, false, false, false, true, false); // D (cf, cj) - Popup Trigger
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 103 MB (+508kb) [00:33:29]
+// [GUI Memory]: 110 MB (+1129kb) [00:34:04]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 649 MB. GUI used memory: 54 MB. Current time: 4/20/26 10:47:16 AM IST
